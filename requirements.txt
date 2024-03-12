@@ -1,5 +1,4 @@
 streamlit
-re
 sqlalchemy
 sklearn.model_selection
 sklearn.multioutput
