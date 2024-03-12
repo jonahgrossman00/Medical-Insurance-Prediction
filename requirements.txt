@@ -1,7 +1,6 @@
 streamlit
-Image
-sqlalchemy
 re
+sqlalchemy
 sklearn.model_selection
 sklearn.multioutput
 sklearn.metrics
