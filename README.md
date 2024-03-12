@@ -12,4 +12,14 @@ Datasets Used:
 
 Visual Studio Code,
 Machine Learning,
-Jupyter Notebook.
+Jupyter Notebook,
+
+Libraries:
+GridScaler,
+Xgboost,
+Stremlit,
+Pandas,
+Sklearn,
+Min/Max Scaler,
+Joblib,
+Pathlib.
