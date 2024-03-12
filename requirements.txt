@@ -1,6 +1,6 @@
 streamlit
 sqlalchemy
-sklearn
+scikit-learn
 Path
 xgboost
 pandas
