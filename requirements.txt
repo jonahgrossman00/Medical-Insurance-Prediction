@@ -1,0 +1,17 @@
+streamlit
+re
+sqlalchmey
+warnings
+Image
+sklearn.model_selection
+sklearn.multioutput
+sklearn.metrics
+Path
+xgboost
+pandas
+numpy
+datetime
+os
+sklearn.preprocessing
+matplotlib.pyplot
+joblib
