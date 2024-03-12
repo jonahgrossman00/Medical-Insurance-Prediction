@@ -10,6 +10,6 @@ Our dataset is used to predict insurance charges based on the person’s age, se
 
 Datasets Used:
 
-Visual Studio Code
-Machine Learning
-Jupyter Notebook
+Visual Studio Code,
+Machine Learning,
+Jupyter Notebook.
