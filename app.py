@@ -87,10 +87,6 @@ with center:
         st.dataframe(df, use_container_width=True)
 
         st.title("")
-        st.markdown("<h2 style='text-align:center'>NUMBER OF CHILDREN VS CHARGES</h2>", unsafe_allow_html=True)
-        st.scatter_chart(df, x='children', y='charges', use_container_width=True)
-
-        st.title("")
         st.markdown("<h2 style='text-align:center'>SMOKER VS NON SMOKER</h2>", unsafe_allow_html=True)
         st.bar_chart(df['smoker'].value_counts())
 
@@ -104,6 +100,15 @@ with center:
         ax = plt.axes()
         ax.hist(df['charges'], bins=20)
         plt.xlabel('charges')
+        plt.ylabel('Frequency')
+        st.pyplot(fig)
+
+        st.title("")
+        st.markdown("<h2 style='text-align:center'>FREQUENCY OF BMI</h2>", unsafe_allow_html=True)
+        fig = plt.figure(figsize=(7,2))
+        ax = plt.axes()
+        ax.hist(df['bmi'], bins=20)
+        plt.xlabel('BMI')
         plt.ylabel('Frequency')
         st.pyplot(fig)
 
