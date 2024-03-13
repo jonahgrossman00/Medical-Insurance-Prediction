@@ -117,6 +117,13 @@ with center:
         st.image('images/ml model.png')
         st.header("XGBoost is one of the most popular supervised learning machine models. This extreme grade boosting machine uses the decision tree ensemble, training each subset to each tree to combine  to a final prediction model. As each model in succession correct the errors of the previous on a graded scale, this allows XGboost machine learning to give you the best linear regression for your data set with lower risk of overfitting.")
         st.header("For our machine model, XGboost loops through multiple settings of 6 different parameters setting to perform almost 13,000 fittings to find combination of parameters for the best accurate machine. With the best fitted parameters shown below, our machine model was able to predict 83% of testing data and 89 % of training data, with RMSE of 0.06239, all for under 10 minutes.")
+        left,center,right = st.columns([1,3,1]) 
+        with left:
+            st.write("")
+        with center:
+            st.image('images/Feature.png', use_column_width=True)
+        with right:
+            st.write("")
     if visual == '**PREDICTION FORM**':
 
         st.markdown("<h2 style='text-align:center'>MEDICAL INSURANCE PREDICTING FORM</h2>", unsafe_allow_html=True)
